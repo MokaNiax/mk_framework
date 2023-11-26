@@ -1,1 +1,4 @@
+If you want to do a save, you will have to require the script modules called "player", it is located in a modules file in "mk_roleplay"
 
+Then if you want to do a save, you must create it with the line below:
+require_player.save_player_data(player)
