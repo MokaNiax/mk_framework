@@ -1,1 +1,4 @@
-create_point
+If you want to make point, you will have to require the script modules called "jobs", it is located in a modules file in "mk_roleplay"
+
+Then if you want to make a point, you must create it with the line below:
+require_jobs.create_point("name", position, Color3.fromRGB(0, 0, 0), workspace)
