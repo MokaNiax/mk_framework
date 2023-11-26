@@ -1,1 +1,4 @@
+If you want to give salary to a player, you will have to require the script modules called "salary", it is located in a modules file in "mk_roleplay"
 
+Then if you want to give a salary, you must create it with the line below:
+require_salary.give_salary(player, player_job)
