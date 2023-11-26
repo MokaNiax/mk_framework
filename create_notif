@@ -2,4 +2,4 @@ If you want to make notifications, you will have to require the script modules c
 
 
 Then if you want to make a notification, you must create it with the line below:
-require_notification.create_notif(selected_player, "Votre salaire viens d'être donné!", Color3.fromRGB(0, 255, 0))
+require_notification.create_notif(player, "message", Color3.fromRGB(0, 0, 0))
