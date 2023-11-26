@@ -1,0 +1,13 @@
+If you want to create a command, go to the “commands” script modules and locate it in “mk_roleplay”
+
+And below all the commands already present you can add yours with the example below:
+elseif command == "hello" then
+		-- code here
+end
+
+If you want to check the permission level of a user, use the line below:
+if require_config.admin_player[player.Name].permission == 0 then
+
+If you want to check a user's job, use the line below:
+if player:WaitForChild("Stats"):FindFirstChild("job").Value == "job_name"
+Job names are in the “config” located in “mk-roleplay”
